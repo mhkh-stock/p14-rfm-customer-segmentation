@@ -1,0 +1,501 @@
+customer_id,customer_name,customer_email,city,first_order,last_order,recency_days,frequency,monetary,avg_order_value,r_score,f_score,m_score,rfm_score,segment
+SB-C0001,Sana Raza,sana.raza0@example.com,Faisalabad,2025-01-05,2025-07-28,156,3,12660,4220,2,3,3,233,At Risk
+SB-C0002,Shahid Abbasi,shahid.abbasi1@example.com,Multan,2025-12-24,2025-12-24,7,1,14400,14400,5,1,3,513,New Customers
+SB-C0003,Sadia Siddiqui,sadia.siddiqui2@example.com,Islamabad,2025-01-03,2025-07-17,167,7,53850,7693,2,5,5,255,At Risk
+SB-C0004,Zainab Javed,zainab.javed3@example.com,Islamabad,2025-03-24,2025-11-19,42,9,66940,7438,4,5,5,455,Champions
+SB-C0005,Maryam Mirza,maryam.mirza4@example.com,Faisalabad,2025-01-04,2025-01-14,351,2,23600,11800,1,3,4,134,At Risk
+SB-C0006,Mahnoor Qureshi,mahnoor.qureshi5@example.com,Faisalabad,2025-04-24,2025-07-28,156,2,18540,9270,2,3,4,234,At Risk
+SB-C0007,Usman Siddiqui,usman.siddiqui6@example.com,Multan,2025-03-21,2025-12-30,1,10,99880,9988,5,5,5,555,Champions
+SB-C0008,Tariq Awan,tariq.awan7@example.com,Multan,2025-02-11,2025-07-11,173,3,25660,8553,2,3,4,234,At Risk
+SB-C0009,Danish Sheikh,danish.sheikh8@example.com,Karachi,2025-10-13,2025-10-13,79,1,9600,9600,4,1,3,413,Potential Loyalists
+SB-C0010,Tariq Abbasi,tariq.abbasi9@example.com,Faisalabad,2025-12-08,2025-12-08,23,1,7000,7000,4,1,2,412,Potential Loyalists
+SB-C0011,Hassan Ali,hassan.ali10@example.com,Karachi,2025-10-10,2025-10-10,82,1,450,450,4,1,1,411,Potential Loyalists
+SB-C0012,Hassan Butt,hassan.butt11@example.com,Multan,2025-03-22,2025-03-22,284,1,11400,11400,1,1,3,113,Lost
+SB-C0013,Bilal Malik,bilal.malik12@example.com,Islamabad,2025-05-07,2025-11-15,46,3,15890,5297,4,3,4,434,Loyal Customers
+SB-C0014,Kiran Abbasi,kiran.abbasi13@example.com,Lahore,2025-01-02,2025-09-20,102,8,17400,2175,3,5,4,354,Loyal Customers
+SB-C0015,Bilal Raza,bilal.raza14@example.com,Multan,2025-12-21,2025-12-21,10,1,2900,2900,5,1,2,512,New Customers
+SB-C0016,Raza Qureshi,raza.qureshi15@example.com,Multan,2025-04-19,2025-12-07,24,4,16450,4112,4,4,4,444,Loyal Customers
+SB-C0017,Maryam Abbasi,maryam.abbasi16@example.com,Karachi,2025-03-30,2025-11-23,38,6,53360,8893,4,5,5,455,Champions
+SB-C0018,Bilal Iqbal,bilal.iqbal17@example.com,Faisalabad,2025-04-02,2025-11-27,34,6,57160,9527,4,5,5,455,Champions
+SB-C0019,Asif Awan,asif.awan18@example.com,Rawalpindi,2025-01-02,2025-08-07,146,8,105490,13186,2,5,5,255,At Risk
+SB-C0020,Bilal Nawaz,bilal.nawaz19@example.com,Karachi,2025-03-12,2025-12-15,16,13,104690,8053,5,5,5,555,Champions
+SB-C0021,Farah Khan,farah.khan20@example.com,Lahore,2025-06-19,2025-06-19,195,1,1170,1170,2,1,1,211,Lost
+SB-C0022,Ali Siddiqui,ali.siddiqui21@example.com,Karachi,2025-02-21,2025-10-19,73,6,47760,7960,4,5,5,455,Champions
+SB-C0023,Asif Iqbal,asif.iqbal22@example.com,Multan,2025-05-10,2025-10-23,69,4,25940,6485,4,4,4,444,Loyal Customers
+SB-C0024,Farah Abbasi,farah.abbasi23@example.com,Islamabad,2025-01-15,2025-08-14,139,3,53440,17813,3,3,5,335,Loyal Customers
+SB-C0025,Usman Malik,usman.malik24@example.com,Karachi,2025-06-26,2025-07-16,168,3,6470,2157,2,3,2,232,At Risk
+SB-C0026,Fatima Akhtar,fatima.akhtar25@example.com,Islamabad,2025-02-25,2025-09-03,119,3,15020,5007,3,3,3,333,Loyal Customers
+SB-C0027,Tariq Khan,tariq.khan26@example.com,Faisalabad,2025-09-04,2025-09-04,118,1,1620,1620,3,1,1,311,Potential Loyalists
+SB-C0028,Omar Khan,omar.khan27@example.com,Rawalpindi,2025-01-24,2025-09-12,110,6,40890,6815,3,5,5,355,Loyal Customers
+SB-C0029,Hassan Sheikh,hassan.sheikh28@example.com,Multan,2025-08-05,2025-08-05,148,1,11600,11600,2,1,3,213,Lost
+SB-C0030,Imran Qureshi,imran.qureshi29@example.com,Karachi,2025-04-09,2025-11-15,46,8,123290,15411,4,5,5,455,Champions
+SB-C0031,Farah Awan,farah.awan30@example.com,Karachi,2025-12-31,2025-12-31,0,1,12600,12600,5,1,3,513,New Customers
+SB-C0032,Imran Khan,imran.khan31@example.com,Multan,2025-01-28,2025-07-30,154,3,15670,5223,2,3,4,234,At Risk
+SB-C0033,Ali Khan,ali.khan32@example.com,Islamabad,2025-12-16,2025-12-16,15,1,450,450,5,1,1,511,New Customers
+SB-C0034,Omar Rana,omar.rana33@example.com,Karachi,2025-01-08,2025-07-24,160,7,38650,5521,2,5,5,255,At Risk
+SB-C0035,Shahid Shah,shahid.shah34@example.com,Multan,2025-01-01,2025-04-28,247,3,17040,5680,1,3,4,134,At Risk
+SB-C0036,Hira Ahmed,hira.ahmed35@example.com,Lahore,2025-01-22,2025-06-21,193,2,11100,5550,2,3,3,233,At Risk
+SB-C0037,Ahmed Awan,ahmed.awan36@example.com,Multan,2025-05-18,2025-05-18,227,1,1560,1560,2,1,1,211,Lost
+SB-C0038,Fatima Ali,fatima.ali37@example.com,Lahore,2025-01-11,2025-09-24,98,8,42520,5315,3,5,5,355,Loyal Customers
+SB-C0039,Rabia Malik,rabia.malik38@example.com,Multan,2025-12-24,2025-12-24,7,1,980,980,5,1,1,511,New Customers
+SB-C0040,Ahmed Sheikh,ahmed.sheikh39@example.com,Faisalabad,2025-03-26,2025-12-24,7,16,124190,7762,5,5,5,555,Champions
+SB-C0041,Tariq Ali,tariq.ali40@example.com,Faisalabad,2025-06-19,2025-07-29,155,2,27780,13890,2,3,4,234,At Risk
+SB-C0042,Danish Ahmed,danish.ahmed41@example.com,Multan,2025-03-07,2025-11-19,42,8,75210,9401,4,5,5,455,Champions
+SB-C0043,Asif Abbasi,asif.abbasi42@example.com,Faisalabad,2025-12-21,2025-12-21,10,1,21600,21600,5,1,4,514,New Customers
+SB-C0044,Waqas Sheikh,waqas.sheikh43@example.com,Karachi,2025-12-05,2025-12-05,26,1,4900,4900,4,1,2,412,Potential Loyalists
+SB-C0045,Maryam Mirza,maryam.mirza44@example.com,Multan,2025-04-18,2025-12-22,9,4,13140,3285,5,4,3,543,Loyal Customers
+SB-C0046,Danish Malik,danish.malik45@example.com,Rawalpindi,2025-03-06,2025-03-06,300,1,13800,13800,1,1,3,113,Lost
+SB-C0047,Bilal Ahmed,bilal.ahmed46@example.com,Lahore,2025-08-29,2025-08-29,124,1,480,480,3,1,1,311,Potential Loyalists
+SB-C0048,Mahnoor Qureshi,mahnoor.qureshi47@example.com,Multan,2025-01-02,2025-07-07,177,3,12140,4047,2,3,3,233,At Risk
+SB-C0049,Raza Sheikh,raza.sheikh48@example.com,Multan,2025-11-02,2025-11-02,59,1,4250,4250,4,1,2,412,Potential Loyalists
+SB-C0050,Maryam Mirza,maryam.mirza49@example.com,Lahore,2025-01-20,2025-05-06,239,2,19320,9660,1,3,4,134,At Risk
+SB-C0051,Bilal Qureshi,bilal.qureshi50@example.com,Faisalabad,2025-11-17,2025-11-17,44,1,22500,22500,4,1,4,414,Potential Loyalists
+SB-C0052,Asif Iqbal,asif.iqbal51@example.com,Rawalpindi,2025-01-19,2025-10-16,76,9,56440,6271,4,5,5,455,Champions
+SB-C0053,Shahid Akhtar,shahid.akhtar52@example.com,Lahore,2025-01-14,2025-01-25,340,2,6020,3010,1,3,2,132,At Risk
+SB-C0054,Farah Iqbal,farah.iqbal53@example.com,Karachi,2025-04-07,2025-09-27,95,3,19680,6560,3,3,4,334,Loyal Customers
+SB-C0055,Shahid Nawaz,shahid.nawaz54@example.com,Lahore,2025-01-11,2025-08-24,129,9,47370,5263,3,5,5,355,Loyal Customers
+SB-C0056,Mahnoor Abbasi,mahnoor.abbasi55@example.com,Faisalabad,2025-01-07,2025-09-12,110,4,25530,6382,3,4,4,344,Loyal Customers
+SB-C0057,Asif Sheikh,asif.sheikh56@example.com,Karachi,2025-01-17,2025-07-28,156,3,19370,6457,2,3,4,234,At Risk
+SB-C0058,Rabia Ahmed,rabia.ahmed57@example.com,Karachi,2025-03-16,2025-12-04,27,3,11500,3833,4,3,3,433,Loyal Customers
+SB-C0059,Danish Shah,danish.shah58@example.com,Lahore,2025-01-01,2025-03-08,298,3,6340,2113,1,3,2,132,At Risk
+SB-C0060,Maryam Ahmed,maryam.ahmed59@example.com,Faisalabad,2025-01-15,2025-08-19,134,4,71670,17918,3,4,5,345,Loyal Customers
+SB-C0061,Hira Malik,hira.malik60@example.com,Islamabad,2025-07-04,2025-07-04,180,1,18000,18000,2,1,4,214,Lost
+SB-C0062,Omar Abbasi,omar.abbasi61@example.com,Multan,2025-09-20,2025-10-04,88,3,28000,9333,3,3,4,334,Loyal Customers
+SB-C0063,Shahid Akhtar,shahid.akhtar62@example.com,Rawalpindi,2025-01-15,2025-07-22,162,3,10030,3343,2,3,3,233,At Risk
+SB-C0064,Rabia Ali,rabia.ali63@example.com,Rawalpindi,2025-05-19,2025-12-23,8,2,3630,1815,5,3,2,532,Loyal Customers
+SB-C0065,Ali Shah,ali.shah64@example.com,Lahore,2025-03-10,2025-12-17,14,12,86740,7228,5,5,5,555,Champions
+SB-C0066,Maryam Javed,maryam.javed65@example.com,Multan,2025-01-11,2025-04-05,270,2,11450,5725,1,3,3,133,At Risk
+SB-C0067,Nida Sheikh,nida.sheikh66@example.com,Islamabad,2025-03-11,2025-12-14,17,15,230130,15342,5,5,5,555,Champions
+SB-C0068,Fatima Ahmed,fatima.ahmed67@example.com,Islamabad,2025-01-05,2025-08-14,139,3,16880,5627,3,3,4,334,Loyal Customers
+SB-C0069,Saad Ali,saad.ali68@example.com,Faisalabad,2025-08-23,2025-08-23,130,1,2480,2480,3,1,1,311,Potential Loyalists
+SB-C0070,Sadia Chaudhry,sadia.chaudhry69@example.com,Islamabad,2025-04-29,2025-09-14,108,2,1380,690,3,3,1,331,Loyal Customers
+SB-C0071,Sana Sheikh,sana.sheikh70@example.com,Lahore,2025-02-09,2025-11-15,46,2,13390,6695,4,3,3,433,Loyal Customers
+SB-C0072,Danish Shah,danish.shah71@example.com,Rawalpindi,2025-01-18,2025-04-07,268,2,2950,1475,1,3,2,132,At Risk
+SB-C0073,Nida Hussain,nida.hussain72@example.com,Rawalpindi,2025-02-20,2025-05-15,230,2,27560,13780,1,3,4,134,At Risk
+SB-C0074,Amna Shah,amna.shah73@example.com,Islamabad,2025-01-09,2025-07-04,180,8,45140,5642,2,5,5,255,At Risk
+SB-C0075,Asif Javed,asif.javed74@example.com,Rawalpindi,2025-01-07,2025-10-01,91,8,100780,12598,3,5,5,355,Loyal Customers
+SB-C0076,Kashif Malik,kashif.malik75@example.com,Lahore,2025-01-15,2025-01-26,339,3,30900,10300,1,3,4,134,At Risk
+SB-C0077,Ahmed Abbasi,ahmed.abbasi76@example.com,Multan,2025-01-17,2025-06-15,199,2,16300,8150,2,3,4,234,At Risk
+SB-C0078,Asif Qureshi,asif.qureshi77@example.com,Karachi,2025-10-18,2025-10-18,74,1,4900,4900,4,1,2,412,Potential Loyalists
+SB-C0079,Hira Ahmed,hira.ahmed78@example.com,Multan,2025-01-02,2025-01-20,345,3,3840,1280,1,3,2,132,At Risk
+SB-C0080,Asif Rana,asif.rana79@example.com,Rawalpindi,2025-12-31,2025-12-31,0,1,19000,19000,5,1,4,514,New Customers
+SB-C0081,Usman Khan,usman.khan80@example.com,Faisalabad,2025-01-08,2025-07-17,167,8,115710,14464,2,5,5,255,At Risk
+SB-C0082,Tariq Awan,tariq.awan81@example.com,Karachi,2025-04-10,2025-10-25,67,2,21900,10950,4,3,4,434,Loyal Customers
+SB-C0083,Hassan Iqbal,hassan.iqbal82@example.com,Rawalpindi,2025-01-06,2025-08-10,143,6,15440,2573,2,5,3,253,At Risk
+SB-C0084,Zainab Javed,zainab.javed83@example.com,Lahore,2025-12-28,2025-12-28,3,1,3120,3120,5,1,2,512,New Customers
+SB-C0085,Ali Ali,ali.ali84@example.com,Rawalpindi,2025-03-16,2025-03-16,290,1,540,540,1,1,1,111,Lost
+SB-C0086,Rabia Raza,rabia.raza85@example.com,Lahore,2025-03-24,2025-03-24,282,1,7000,7000,1,1,2,112,Lost
+SB-C0087,Tariq Sheikh,tariq.sheikh86@example.com,Faisalabad,2025-02-15,2025-09-25,97,7,38860,5551,3,5,5,355,Loyal Customers
+SB-C0088,Amna Iqbal,amna.iqbal87@example.com,Rawalpindi,2025-08-28,2025-09-15,107,2,2670,1335,3,3,1,331,Loyal Customers
+SB-C0089,Amna Qureshi,amna.qureshi88@example.com,Multan,2025-08-25,2025-12-05,26,2,3270,1635,4,3,2,432,Loyal Customers
+SB-C0090,Shahid Qureshi,shahid.qureshi89@example.com,Islamabad,2025-01-17,2025-10-04,88,7,51610,7373,3,5,5,355,Loyal Customers
+SB-C0091,Ayesha Shah,ayesha.shah90@example.com,Multan,2025-10-01,2025-10-01,91,1,900,900,3,1,1,311,Potential Loyalists
+SB-C0092,Mehwish Chaudhry,mehwish.chaudhry91@example.com,Lahore,2025-08-04,2025-08-29,124,2,30000,15000,3,3,4,334,Loyal Customers
+SB-C0093,Fatima Abbasi,fatima.abbasi92@example.com,Multan,2025-12-17,2025-12-17,14,1,780,780,5,1,1,511,New Customers
+SB-C0094,Shahid Rana,shahid.rana93@example.com,Multan,2025-08-18,2025-08-18,135,1,5800,5800,3,1,2,312,Potential Loyalists
+SB-C0095,Sana Sheikh,sana.sheikh94@example.com,Lahore,2025-07-23,2025-11-21,40,4,7480,1870,4,4,2,442,Loyal Customers
+SB-C0096,Hassan Raza,hassan.raza95@example.com,Lahore,2025-12-07,2025-12-07,24,1,6900,6900,4,1,2,412,Potential Loyalists
+SB-C0097,Saad Khan,saad.khan96@example.com,Lahore,2025-01-27,2025-07-08,176,3,19600,6533,2,3,4,234,At Risk
+SB-C0098,Hira Awan,hira.awan97@example.com,Multan,2025-06-21,2025-12-05,26,3,55520,18507,4,3,5,435,Loyal Customers
+SB-C0099,Kashif Sheikh,kashif.sheikh98@example.com,Lahore,2025-12-21,2025-12-21,10,1,3120,3120,5,1,2,512,New Customers
+SB-C0100,Rabia Javed,rabia.javed99@example.com,Rawalpindi,2025-01-03,2025-10-15,77,3,8820,2940,4,3,3,433,Loyal Customers
+SB-C0101,Rabia Mirza,rabia.mirza100@example.com,Rawalpindi,2025-01-16,2025-02-28,306,3,9200,3067,1,3,3,133,At Risk
+SB-C0102,Tariq Shah,tariq.shah101@example.com,Faisalabad,2025-06-23,2025-06-23,191,1,11400,11400,2,1,3,213,Lost
+SB-C0103,Hassan Mirza,hassan.mirza102@example.com,Rawalpindi,2025-01-12,2025-10-08,84,9,171700,19078,3,5,5,355,Loyal Customers
+SB-C0104,Kashif Hussain,kashif.hussain103@example.com,Multan,2025-01-09,2025-11-01,60,6,30270,5045,4,5,4,454,Champions
+SB-C0105,Amna Akhtar,amna.akhtar104@example.com,Multan,2025-12-28,2025-12-28,3,1,2850,2850,5,1,1,511,New Customers
+SB-C0106,Mehwish Rana,mehwish.rana105@example.com,Multan,2025-06-06,2025-06-06,208,1,9600,9600,2,1,3,213,Lost
+SB-C0107,Zainab Rana,zainab.rana106@example.com,Faisalabad,2025-01-14,2025-07-19,165,2,21720,10860,2,3,4,234,At Risk
+SB-C0108,Sadia Ali,sadia.ali107@example.com,Faisalabad,2025-02-04,2025-09-26,96,2,36900,18450,3,3,5,335,Loyal Customers
+SB-C0109,Zainab Ali,zainab.ali108@example.com,Islamabad,2025-05-25,2025-05-25,220,1,37500,37500,2,1,5,215,Lost
+SB-C0110,Amna Raza,amna.raza109@example.com,Islamabad,2025-03-27,2025-12-24,7,18,167600,9311,5,5,5,555,Champions
+SB-C0111,Fatima Hussain,fatima.hussain110@example.com,Karachi,2025-01-16,2025-08-25,128,3,23600,7867,3,3,4,334,Loyal Customers
+SB-C0112,Mahnoor Shah,mahnoor.shah111@example.com,Rawalpindi,2025-03-21,2025-12-23,8,15,89180,5945,5,5,5,555,Champions
+SB-C0113,Hira Javed,hira.javed112@example.com,Lahore,2025-10-05,2025-10-05,87,1,620,620,3,1,1,311,Potential Loyalists
+SB-C0114,Ayesha Raza,ayesha.raza113@example.com,Faisalabad,2025-01-13,2025-08-26,127,3,7210,2403,3,3,2,332,Loyal Customers
+SB-C0115,Maryam Mirza,maryam.mirza114@example.com,Islamabad,2025-02-12,2025-11-17,44,7,20020,2860,4,5,4,454,Champions
+SB-C0116,Waqas Siddiqui,waqas.siddiqui115@example.com,Faisalabad,2025-01-12,2025-10-18,74,4,11430,2858,4,4,3,443,Loyal Customers
+SB-C0117,Nida Shah,nida.shah116@example.com,Lahore,2025-01-08,2025-08-03,150,8,39470,4934,2,5,5,255,At Risk
+SB-C0118,Fatima Ali,fatima.ali117@example.com,Lahore,2025-02-19,2025-09-26,96,6,97700,16283,3,5,5,355,Loyal Customers
+SB-C0119,Sadia Ali,sadia.ali118@example.com,Rawalpindi,2025-12-30,2025-12-30,1,1,2560,2560,5,1,1,511,New Customers
+SB-C0120,Nadia Akhtar,nadia.akhtar119@example.com,Karachi,2025-10-09,2025-10-09,83,1,780,780,3,1,1,311,Potential Loyalists
+SB-C0121,Mahnoor Qureshi,mahnoor.qureshi120@example.com,Multan,2025-05-20,2025-05-20,225,1,2850,2850,2,1,1,211,Lost
+SB-C0122,Sana Abbasi,sana.abbasi121@example.com,Karachi,2025-07-19,2025-12-28,3,3,12360,4120,5,3,3,533,Loyal Customers
+SB-C0123,Usman Butt,usman.butt122@example.com,Islamabad,2025-01-17,2025-03-10,296,3,5450,1817,1,3,2,132,At Risk
+SB-C0124,Rabia Awan,rabia.awan123@example.com,Multan,2025-02-11,2025-02-11,323,1,7000,7000,1,1,2,112,Lost
+SB-C0125,Ali Sheikh,ali.sheikh124@example.com,Multan,2025-01-05,2025-07-06,178,3,19480,6493,2,3,4,234,At Risk
+SB-C0126,Kiran Qureshi,kiran.qureshi125@example.com,Rawalpindi,2025-12-30,2025-12-30,1,1,750,750,5,1,1,511,New Customers
+SB-C0127,Kiran Chaudhry,kiran.chaudhry126@example.com,Rawalpindi,2025-03-16,2025-12-23,8,13,106120,8163,5,5,5,555,Champions
+SB-C0128,Kiran Khan,kiran.khan127@example.com,Karachi,2025-04-02,2025-10-30,62,3,21420,7140,4,4,4,444,Loyal Customers
+SB-C0129,Shahid Akhtar,shahid.akhtar128@example.com,Lahore,2025-02-20,2025-02-20,314,1,1500,1500,1,1,1,111,Lost
+SB-C0130,Tariq Akhtar,tariq.akhtar129@example.com,Lahore,2025-03-08,2025-10-28,64,7,27330,3904,4,5,4,454,Champions
+SB-C0131,Nida Raza,nida.raza130@example.com,Multan,2025-03-19,2025-03-19,287,1,360,360,1,1,1,111,Lost
+SB-C0132,Usman Malik,usman.malik131@example.com,Karachi,2025-02-20,2025-12-17,14,4,17920,4480,5,4,4,544,Loyal Customers
+SB-C0133,Rabia Akhtar,rabia.akhtar132@example.com,Lahore,2025-11-29,2025-11-29,32,1,2600,2600,4,1,1,411,Potential Loyalists
+SB-C0134,Nida Nawaz,nida.nawaz133@example.com,Lahore,2025-06-01,2025-12-17,14,2,26950,13475,5,3,4,534,Loyal Customers
+SB-C0135,Usman Siddiqui,usman.siddiqui134@example.com,Islamabad,2025-01-22,2025-11-03,58,4,16950,4238,4,4,4,444,Loyal Customers
+SB-C0136,Sadia Mirza,sadia.mirza135@example.com,Faisalabad,2025-08-18,2025-08-18,135,1,37500,37500,3,1,5,315,Potential Loyalists
+SB-C0137,Fatima Butt,fatima.butt136@example.com,Faisalabad,2025-02-05,2025-10-25,67,2,4620,2310,4,3,2,432,Loyal Customers
+SB-C0138,Omar Rana,omar.rana137@example.com,Karachi,2025-02-04,2025-11-23,38,4,12870,3218,4,4,3,443,Loyal Customers
+SB-C0139,Ayesha Khan,ayesha.khan138@example.com,Multan,2025-09-16,2025-10-28,64,2,32400,16200,4,3,4,434,Loyal Customers
+SB-C0140,Asif Ahmed,asif.ahmed139@example.com,Multan,2025-06-01,2025-12-28,3,3,20020,6673,5,4,4,544,Loyal Customers
+SB-C0141,Nida Siddiqui,nida.siddiqui140@example.com,Karachi,2025-12-27,2025-12-27,4,1,4140,4140,5,1,2,512,New Customers
+SB-C0142,Shahid Mirza,shahid.mirza141@example.com,Multan,2025-01-14,2025-04-13,262,2,7050,3525,1,3,2,132,At Risk
+SB-C0143,Rabia Ahmed,rabia.ahmed142@example.com,Rawalpindi,2025-10-27,2025-10-27,65,1,900,900,4,1,1,411,Potential Loyalists
+SB-C0144,Ayesha Akhtar,ayesha.akhtar143@example.com,Faisalabad,2025-01-07,2025-02-24,310,3,23100,7700,1,4,4,144,At Risk
+SB-C0145,Danish Mirza,danish.mirza144@example.com,Islamabad,2025-01-11,2025-08-20,133,3,44920,14973,3,4,5,345,Loyal Customers
+SB-C0146,Rabia Ali,rabia.ali145@example.com,Karachi,2025-01-08,2025-06-24,190,3,18550,6183,2,4,4,244,At Risk
+SB-C0147,Amna Malik,amna.malik146@example.com,Islamabad,2025-12-19,2025-12-19,12,1,15200,15200,5,1,3,513,New Customers
+SB-C0148,Omar Mirza,omar.mirza147@example.com,Rawalpindi,2025-04-25,2025-04-25,250,1,14400,14400,1,1,3,113,Lost
+SB-C0149,Nida Awan,nida.awan148@example.com,Karachi,2025-07-08,2025-11-05,56,4,19140,4785,4,4,4,444,Loyal Customers
+SB-C0150,Usman Akhtar,usman.akhtar149@example.com,Multan,2025-01-03,2025-01-03,362,1,650,650,1,1,1,111,Lost
+SB-C0151,Mehwish Malik,mehwish.malik150@example.com,Islamabad,2025-12-19,2025-12-19,12,1,4140,4140,5,1,2,512,New Customers
+SB-C0152,Mahnoor Siddiqui,mahnoor.siddiqui151@example.com,Lahore,2025-10-02,2025-10-02,90,1,20400,20400,3,1,4,314,Potential Loyalists
+SB-C0153,Saad Raza,saad.raza152@example.com,Lahore,2025-08-09,2025-12-18,13,4,8110,2028,5,4,3,543,Loyal Customers
+SB-C0154,Bilal Malik,bilal.malik153@example.com,Faisalabad,2025-12-01,2025-12-01,30,1,2340,2340,4,1,1,411,Potential Loyalists
+SB-C0155,Bilal Ali,bilal.ali154@example.com,Islamabad,2025-11-20,2025-11-20,41,1,1600,1600,4,1,1,411,Potential Loyalists
+SB-C0156,Kiran Javed,kiran.javed155@example.com,Lahore,2025-03-10,2025-10-12,80,3,7560,2520,4,4,2,442,Loyal Customers
+SB-C0157,Asif Rana,asif.rana156@example.com,Rawalpindi,2025-01-05,2025-08-04,149,7,48840,6977,2,5,5,255,At Risk
+SB-C0158,Hira Sheikh,hira.sheikh157@example.com,Karachi,2025-02-07,2025-11-02,59,4,13830,3458,4,4,3,443,Loyal Customers
+SB-C0159,Amna Butt,amna.butt158@example.com,Karachi,2025-01-24,2025-04-02,273,2,1750,875,1,3,1,131,At Risk
+SB-C0160,Imran Hussain,imran.hussain159@example.com,Lahore,2025-12-21,2025-12-21,10,1,1560,1560,5,1,1,511,New Customers
+SB-C0161,Farah Rana,farah.rana160@example.com,Lahore,2025-01-25,2025-08-14,139,7,35090,5013,3,5,5,355,Loyal Customers
+SB-C0162,Hira Siddiqui,hira.siddiqui161@example.com,Multan,2025-01-29,2025-07-12,172,3,4280,1427,2,4,2,242,At Risk
+SB-C0163,Usman Ali,usman.ali162@example.com,Multan,2025-01-07,2025-08-25,128,6,106220,17703,3,5,5,355,Loyal Customers
+SB-C0164,Raza Butt,raza.butt163@example.com,Multan,2025-03-26,2025-03-26,280,1,7200,7200,1,1,2,112,Lost
+SB-C0165,Hassan Siddiqui,hassan.siddiqui164@example.com,Faisalabad,2025-05-04,2025-05-04,241,1,13800,13800,1,1,3,113,Lost
+SB-C0166,Waqas Malik,waqas.malik165@example.com,Karachi,2025-01-07,2025-08-01,152,9,94160,10462,2,5,5,255,At Risk
+SB-C0167,Danish Rana,danish.rana166@example.com,Islamabad,2025-03-15,2025-10-29,63,3,38970,12990,4,4,5,445,Loyal Customers
+SB-C0168,Nida Khan,nida.khan167@example.com,Faisalabad,2025-12-06,2025-12-06,25,1,1680,1680,4,1,1,411,Potential Loyalists
+SB-C0169,Ayesha Iqbal,ayesha.iqbal168@example.com,Rawalpindi,2025-12-24,2025-12-24,7,1,4350,4350,5,1,2,512,New Customers
+SB-C0170,Usman Siddiqui,usman.siddiqui169@example.com,Karachi,2025-01-25,2025-01-25,340,1,2940,2940,1,1,2,112,Lost
+SB-C0171,Raza Javed,raza.javed170@example.com,Multan,2025-02-09,2025-02-09,325,1,4600,4600,1,1,2,112,Lost
+SB-C0172,Hira Ahmed,hira.ahmed171@example.com,Rawalpindi,2025-01-28,2025-03-19,287,2,4730,2365,1,3,2,132,At Risk
+SB-C0173,Ayesha Ahmed,ayesha.ahmed172@example.com,Islamabad,2025-12-27,2025-12-27,4,1,1080,1080,5,1,1,511,New Customers
+SB-C0174,Raza Abbasi,raza.abbasi173@example.com,Lahore,2025-01-17,2025-01-17,348,1,2670,2670,1,1,1,111,Lost
+SB-C0175,Rabia Mirza,rabia.mirza174@example.com,Multan,2025-01-23,2025-07-22,162,7,88510,12644,2,5,5,255,At Risk
+SB-C0176,Bilal Iqbal,bilal.iqbal175@example.com,Karachi,2025-01-04,2025-03-28,278,3,19360,6453,1,4,4,144,At Risk
+SB-C0177,Waqas Raza,waqas.raza176@example.com,Lahore,2025-12-19,2025-12-19,12,1,420,420,5,1,1,511,New Customers
+SB-C0178,Nadia Khan,nadia.khan177@example.com,Rawalpindi,2025-12-25,2025-12-25,6,1,5400,5400,5,1,2,512,New Customers
+SB-C0179,Imran Awan,imran.awan178@example.com,Multan,2025-01-06,2025-07-25,159,3,25490,8497,2,4,4,244,At Risk
+SB-C0180,Farah Malik,farah.malik179@example.com,Rawalpindi,2025-01-28,2025-09-09,113,4,22050,5512,3,4,4,344,Loyal Customers
+SB-C0181,Fatima Malik,fatima.malik180@example.com,Faisalabad,2025-03-12,2025-12-28,3,12,226550,18879,5,5,5,555,Champions
+SB-C0182,Nida Mirza,nida.mirza181@example.com,Rawalpindi,2025-12-30,2025-12-30,1,1,1800,1800,5,1,1,511,New Customers
+SB-C0183,Usman Shah,usman.shah182@example.com,Karachi,2025-04-05,2025-04-05,270,1,5200,5200,1,1,2,112,Lost
+SB-C0184,Bilal Abbasi,bilal.abbasi183@example.com,Karachi,2025-01-26,2025-10-09,83,4,18260,4565,3,4,4,344,Loyal Customers
+SB-C0185,Saad Ali,saad.ali184@example.com,Rawalpindi,2025-01-01,2025-08-18,135,9,74290,8254,3,5,5,355,Loyal Customers
+SB-C0186,Asif Nawaz,asif.nawaz185@example.com,Multan,2025-10-24,2025-11-16,45,2,1760,880,4,3,1,431,Loyal Customers
+SB-C0187,Nida Qureshi,nida.qureshi186@example.com,Rawalpindi,2025-12-22,2025-12-22,9,1,3750,3750,5,1,2,512,New Customers
+SB-C0188,Saad Akhtar,saad.akhtar187@example.com,Multan,2025-05-07,2025-12-24,7,11,178200,16200,5,5,5,555,Champions
+SB-C0189,Hira Nawaz,hira.nawaz188@example.com,Karachi,2025-01-05,2025-01-05,360,1,2070,2070,1,1,1,111,Lost
+SB-C0190,Sana Siddiqui,sana.siddiqui189@example.com,Faisalabad,2025-02-14,2025-11-08,53,7,30400,4343,4,5,4,454,Champions
+SB-C0191,Waqas Raza,waqas.raza190@example.com,Multan,2025-02-15,2025-12-07,24,3,25340,8447,4,4,4,444,Loyal Customers
+SB-C0192,Omar Shah,omar.shah191@example.com,Karachi,2025-03-30,2025-03-30,276,1,1750,1750,1,1,1,111,Lost
+SB-C0193,Imran Ali,imran.ali192@example.com,Multan,2025-12-24,2025-12-24,7,1,34000,34000,5,1,5,515,New Customers
+SB-C0194,Zainab Javed,zainab.javed193@example.com,Faisalabad,2025-01-05,2025-07-25,159,8,42530,5316,2,5,5,255,At Risk
+SB-C0195,Nida Hussain,nida.hussain194@example.com,Faisalabad,2025-12-29,2025-12-29,2,1,640,640,5,1,1,511,New Customers
+SB-C0196,Waqas Malik,waqas.malik195@example.com,Lahore,2025-12-17,2025-12-17,14,1,2250,2250,5,1,1,511,New Customers
+SB-C0197,Saad Siddiqui,saad.siddiqui196@example.com,Islamabad,2025-02-13,2025-07-27,157,4,10030,2508,2,4,3,243,At Risk
+SB-C0198,Bilal Khan,bilal.khan197@example.com,Multan,2025-06-02,2025-10-07,85,2,42700,21350,3,3,5,335,Loyal Customers
+SB-C0199,Kiran Nawaz,kiran.nawaz198@example.com,Islamabad,2025-01-01,2025-07-11,173,6,31440,5240,2,5,4,254,At Risk
+SB-C0200,Raza Ahmed,raza.ahmed199@example.com,Lahore,2025-01-18,2025-08-17,136,2,9900,4950,3,3,3,333,Loyal Customers
+SB-C0201,Omar Malik,omar.malik200@example.com,Multan,2025-08-24,2025-08-24,129,1,1450,1450,3,1,1,311,Potential Loyalists
+SB-C0202,Hassan Mirza,hassan.mirza201@example.com,Islamabad,2025-01-15,2025-01-15,350,1,3600,3600,1,1,2,112,Lost
+SB-C0203,Maryam Mirza,maryam.mirza202@example.com,Faisalabad,2025-05-31,2025-05-31,214,1,420,420,2,1,1,211,Lost
+SB-C0204,Sana Iqbal,sana.iqbal203@example.com,Islamabad,2025-05-16,2025-08-29,124,4,21020,5255,3,4,4,344,Loyal Customers
+SB-C0205,Sana Butt,sana.butt204@example.com,Islamabad,2025-04-20,2025-07-24,160,2,27000,13500,2,3,4,234,At Risk
+SB-C0206,Zainab Nawaz,zainab.nawaz205@example.com,Karachi,2025-03-23,2025-11-29,32,4,14380,3595,4,4,3,443,Loyal Customers
+SB-C0207,Usman Malik,usman.malik206@example.com,Multan,2025-01-06,2025-07-09,175,4,43900,10975,2,4,5,245,At Risk
+SB-C0208,Sana Javed,sana.javed207@example.com,Rawalpindi,2025-02-04,2025-10-29,63,4,47170,11792,4,4,5,445,Loyal Customers
+SB-C0209,Raza Qureshi,raza.qureshi208@example.com,Multan,2025-01-12,2025-01-25,340,2,12750,6375,1,3,3,133,At Risk
+SB-C0210,Imran Ali,imran.ali209@example.com,Islamabad,2025-05-17,2025-05-17,228,1,1280,1280,1,1,1,111,Lost
+SB-C0211,Nida Sheikh,nida.sheikh210@example.com,Lahore,2025-01-13,2025-08-19,134,4,22490,5622,3,4,4,344,Loyal Customers
+SB-C0212,Kiran Sheikh,kiran.sheikh211@example.com,Rawalpindi,2025-04-23,2025-08-08,145,4,6970,1742,2,4,2,242,At Risk
+SB-C0213,Tariq Siddiqui,tariq.siddiqui212@example.com,Lahore,2025-01-31,2025-09-12,110,4,8720,2180,3,4,3,343,Loyal Customers
+SB-C0214,Mehwish Khan,mehwish.khan213@example.com,Islamabad,2025-01-13,2025-09-19,103,9,47350,5261,3,5,5,355,Loyal Customers
+SB-C0215,Fatima Nawaz,fatima.nawaz214@example.com,Faisalabad,2025-12-31,2025-12-31,0,1,2700,2700,5,1,1,511,New Customers
+SB-C0216,Kiran Javed,kiran.javed215@example.com,Rawalpindi,2025-01-08,2025-10-07,85,4,23180,5795,3,4,4,344,Loyal Customers
+SB-C0217,Amna Rana,amna.rana216@example.com,Islamabad,2025-10-15,2025-10-15,77,1,980,980,4,1,1,411,Potential Loyalists
+SB-C0218,Ayesha Raza,ayesha.raza217@example.com,Islamabad,2025-04-19,2025-12-19,12,4,32370,8092,5,4,4,544,Loyal Customers
+SB-C0219,Farah Abbasi,farah.abbasi218@example.com,Faisalabad,2025-12-19,2025-12-19,12,1,7920,7920,5,1,3,513,New Customers
+SB-C0220,Tariq Khan,tariq.khan219@example.com,Rawalpindi,2025-08-07,2025-08-07,146,1,2250,2250,2,1,1,211,Lost
+SB-C0221,Ayesha Khan,ayesha.khan220@example.com,Islamabad,2025-09-15,2025-09-15,107,1,780,780,3,1,1,311,Potential Loyalists
+SB-C0222,Maryam Nawaz,maryam.nawaz221@example.com,Rawalpindi,2025-03-17,2025-03-17,289,1,640,640,1,1,1,111,Lost
+SB-C0223,Tariq Javed,tariq.javed222@example.com,Rawalpindi,2025-01-05,2025-07-29,155,2,9240,4620,2,3,3,233,At Risk
+SB-C0224,Ali Hussain,ali.hussain223@example.com,Rawalpindi,2025-09-04,2025-09-04,118,1,2160,2160,3,1,1,311,Potential Loyalists
+SB-C0225,Mahnoor Butt,mahnoor.butt224@example.com,Islamabad,2025-01-13,2025-01-29,336,3,13050,4350,1,4,3,143,At Risk
+SB-C0226,Danish Akhtar,danish.akhtar225@example.com,Lahore,2025-05-28,2025-05-28,217,1,1300,1300,2,1,1,211,Lost
+SB-C0227,Sana Hussain,sana.hussain226@example.com,Rawalpindi,2025-01-06,2025-09-02,120,6,45390,7565,3,5,5,355,Loyal Customers
+SB-C0228,Shahid Raza,shahid.raza227@example.com,Faisalabad,2025-05-10,2025-05-10,235,1,1300,1300,1,1,1,111,Lost
+SB-C0229,Kiran Raza,kiran.raza228@example.com,Multan,2025-11-27,2025-11-27,34,1,5000,5000,4,1,2,412,Potential Loyalists
+SB-C0230,Hassan Abbasi,hassan.abbasi229@example.com,Multan,2025-06-08,2025-06-20,194,2,6800,3400,2,3,2,232,At Risk
+SB-C0231,Mehwish Siddiqui,mehwish.siddiqui230@example.com,Karachi,2025-02-18,2025-09-10,112,7,91850,13121,3,5,5,355,Loyal Customers
+SB-C0232,Ayesha Rana,ayesha.rana231@example.com,Faisalabad,2025-01-05,2025-07-09,175,8,26500,3312,2,5,4,254,At Risk
+SB-C0233,Mehwish Iqbal,mehwish.iqbal232@example.com,Islamabad,2025-12-29,2025-12-29,2,1,420,420,5,1,1,511,New Customers
+SB-C0234,Raza Malik,raza.malik233@example.com,Karachi,2025-01-03,2025-06-06,208,3,30100,10033,2,4,4,244,At Risk
+SB-C0235,Kiran Ali,kiran.ali234@example.com,Faisalabad,2025-01-12,2025-08-31,122,3,4930,1643,3,4,2,342,Loyal Customers
+SB-C0236,Danish Ahmed,danish.ahmed235@example.com,Karachi,2025-01-31,2025-08-06,147,3,23280,7760,2,4,4,244,At Risk
+SB-C0237,Amna Hussain,amna.hussain236@example.com,Rawalpindi,2025-02-06,2025-02-06,328,1,13600,13600,1,1,3,113,Lost
+SB-C0238,Hassan Khan,hassan.khan237@example.com,Islamabad,2025-01-09,2025-10-06,86,4,18760,4690,3,4,4,344,Loyal Customers
+SB-C0239,Amna Ali,amna.ali238@example.com,Islamabad,2025-11-04,2025-11-04,57,1,2880,2880,4,1,1,411,Potential Loyalists
+SB-C0240,Fatima Ali,fatima.ali239@example.com,Multan,2025-01-06,2025-08-13,140,7,77380,11054,3,5,5,355,Loyal Customers
+SB-C0241,Mehwish Abbasi,mehwish.abbasi240@example.com,Karachi,2025-10-18,2025-10-18,74,1,560,560,4,1,1,411,Potential Loyalists
+SB-C0242,Amna Chaudhry,amna.chaudhry241@example.com,Faisalabad,2025-01-05,2025-08-23,130,7,30490,4356,3,5,4,354,Loyal Customers
+SB-C0243,Hassan Mirza,hassan.mirza242@example.com,Faisalabad,2025-10-06,2025-10-06,86,1,1620,1620,3,1,1,311,Potential Loyalists
+SB-C0244,Danish Mirza,danish.mirza243@example.com,Karachi,2025-01-18,2025-10-28,64,6,27760,4627,4,5,4,454,Champions
+SB-C0245,Hassan Shah,hassan.shah244@example.com,Karachi,2025-02-19,2025-09-06,116,3,9540,3180,3,4,3,343,Loyal Customers
+SB-C0246,Amna Nawaz,amna.nawaz245@example.com,Faisalabad,2025-12-19,2025-12-19,12,1,2850,2850,5,1,1,511,New Customers
+SB-C0247,Bilal Akhtar,bilal.akhtar246@example.com,Rawalpindi,2025-05-21,2025-05-21,224,1,5800,5800,2,1,2,212,Lost
+SB-C0248,Usman Chaudhry,usman.chaudhry247@example.com,Lahore,2025-08-27,2025-08-27,126,1,11400,11400,3,1,3,313,Potential Loyalists
+SB-C0249,Asif Mirza,asif.mirza248@example.com,Multan,2025-12-29,2025-12-29,2,1,780,780,5,1,1,511,New Customers
+SB-C0250,Shahid Hussain,shahid.hussain249@example.com,Faisalabad,2025-01-30,2025-01-30,335,1,1980,1980,1,1,1,111,Lost
+SB-C0251,Raza Malik,raza.malik250@example.com,Islamabad,2025-01-05,2025-01-08,357,2,3240,1620,1,3,2,132,At Risk
+SB-C0252,Ali Iqbal,ali.iqbal251@example.com,Multan,2025-01-02,2025-01-15,350,3,7280,2427,1,4,2,142,At Risk
+SB-C0253,Bilal Rana,bilal.rana252@example.com,Faisalabad,2025-10-08,2025-10-08,84,1,18000,18000,3,1,4,314,Potential Loyalists
+SB-C0254,Ali Mirza,ali.mirza253@example.com,Karachi,2025-05-25,2025-07-01,183,2,5140,2570,2,3,2,232,At Risk
+SB-C0255,Kashif Qureshi,kashif.qureshi254@example.com,Rawalpindi,2025-04-03,2025-11-17,44,2,5940,2970,4,3,2,432,Loyal Customers
+SB-C0256,Kiran Nawaz,kiran.nawaz255@example.com,Multan,2025-06-21,2025-06-21,193,1,450,450,2,1,1,211,Lost
+SB-C0257,Farah Chaudhry,farah.chaudhry256@example.com,Faisalabad,2025-10-04,2025-10-04,88,1,13600,13600,3,1,3,313,Potential Loyalists
+SB-C0258,Tariq Nawaz,tariq.nawaz257@example.com,Karachi,2025-09-08,2025-09-08,114,1,9900,9900,3,2,3,323,Potential Loyalists
+SB-C0259,Asif Khan,asif.khan258@example.com,Rawalpindi,2025-10-12,2025-10-12,80,1,1400,1400,4,2,1,421,Potential Loyalists
+SB-C0260,Imran Sheikh,imran.sheikh259@example.com,Lahore,2025-12-24,2025-12-24,7,1,3600,3600,5,2,2,522,Potential Loyalists
+SB-C0261,Sana Qureshi,sana.qureshi260@example.com,Faisalabad,2025-01-20,2025-08-11,142,4,101990,25498,3,4,5,345,Loyal Customers
+SB-C0262,Ahmed Siddiqui,ahmed.siddiqui261@example.com,Islamabad,2025-12-25,2025-12-25,6,1,1800,1800,5,2,1,521,Potential Loyalists
+SB-C0263,Farah Raza,farah.raza262@example.com,Rawalpindi,2025-02-04,2025-02-04,330,1,2600,2600,1,2,1,121,Hibernating
+SB-C0264,Rabia Sheikh,rabia.sheikh263@example.com,Faisalabad,2025-11-21,2025-11-21,40,1,6250,6250,4,2,2,422,Potential Loyalists
+SB-C0265,Ayesha Iqbal,ayesha.iqbal264@example.com,Karachi,2025-01-14,2025-05-13,232,3,9620,3207,1,4,3,143,At Risk
+SB-C0266,Fatima Raza,fatima.raza265@example.com,Rawalpindi,2025-02-02,2025-11-09,52,4,10690,2672,4,4,3,443,Loyal Customers
+SB-C0267,Ayesha Shah,ayesha.shah266@example.com,Karachi,2025-01-20,2025-10-08,84,4,23330,5832,3,4,4,344,Loyal Customers
+SB-C0268,Tariq Nawaz,tariq.nawaz267@example.com,Lahore,2025-01-08,2025-08-29,124,2,13100,6550,3,3,3,333,Loyal Customers
+SB-C0269,Sadia Hussain,sadia.hussain268@example.com,Faisalabad,2025-01-07,2025-07-21,163,8,73800,9225,2,5,5,255,At Risk
+SB-C0270,Tariq Awan,tariq.awan269@example.com,Rawalpindi,2025-06-04,2025-06-04,210,1,600,600,2,2,1,221,Hibernating
+SB-C0271,Imran Awan,imran.awan270@example.com,Lahore,2025-04-10,2025-12-18,13,18,218060,12114,5,5,5,555,Champions
+SB-C0272,Bilal Siddiqui,bilal.siddiqui271@example.com,Rawalpindi,2025-08-03,2025-08-03,150,1,540,540,2,2,1,221,Hibernating
+SB-C0273,Kiran Ali,kiran.ali272@example.com,Islamabad,2025-04-21,2025-04-21,254,1,3000,3000,1,2,2,122,Hibernating
+SB-C0274,Mehwish Raza,mehwish.raza273@example.com,Rawalpindi,2025-09-09,2025-09-09,113,1,50000,50000,3,2,5,325,Potential Loyalists
+SB-C0275,Tariq Butt,tariq.butt274@example.com,Islamabad,2025-04-21,2025-10-26,66,2,30560,15280,4,3,4,434,Loyal Customers
+SB-C0276,Sadia Butt,sadia.butt275@example.com,Islamabad,2025-02-09,2025-11-13,48,4,4140,1035,4,4,2,442,Loyal Customers
+SB-C0277,Usman Nawaz,usman.nawaz276@example.com,Rawalpindi,2025-01-21,2025-06-23,191,3,15200,5067,2,4,3,243,At Risk
+SB-C0278,Omar Nawaz,omar.nawaz277@example.com,Lahore,2025-02-20,2025-02-20,314,1,4450,4450,1,2,2,122,Hibernating
+SB-C0279,Asif Sheikh,asif.sheikh278@example.com,Multan,2025-12-17,2025-12-17,14,1,2080,2080,5,2,1,521,Potential Loyalists
+SB-C0280,Waqas Ahmed,waqas.ahmed279@example.com,Islamabad,2025-02-07,2025-08-31,122,4,13780,3445,3,4,3,343,Loyal Customers
+SB-C0281,Rabia Sheikh,rabia.sheikh280@example.com,Islamabad,2025-02-20,2025-02-20,314,1,2100,2100,1,2,1,121,Hibernating
+SB-C0282,Asif Malik,asif.malik281@example.com,Rawalpindi,2025-03-18,2025-12-25,6,11,62060,5642,5,5,5,555,Champions
+SB-C0283,Ayesha Mirza,ayesha.mirza282@example.com,Karachi,2025-03-02,2025-09-14,108,7,34470,4924,3,5,5,355,Loyal Customers
+SB-C0284,Waqas Sheikh,waqas.sheikh283@example.com,Faisalabad,2025-01-04,2025-02-25,309,3,16000,5333,1,4,4,144,At Risk
+SB-C0285,Rabia Awan,rabia.awan284@example.com,Karachi,2025-12-19,2025-12-19,12,1,5700,5700,5,2,2,522,Potential Loyalists
+SB-C0286,Saad Qureshi,saad.qureshi285@example.com,Lahore,2025-02-09,2025-11-26,35,8,120990,15124,4,5,5,455,Champions
+SB-C0287,Asif Shah,asif.shah286@example.com,Rawalpindi,2025-12-12,2025-12-12,19,1,850,850,4,2,1,421,Potential Loyalists
+SB-C0288,Omar Iqbal,omar.iqbal287@example.com,Lahore,2025-12-28,2025-12-28,3,1,17250,17250,5,2,4,524,Potential Loyalists
+SB-C0289,Maryam Ahmed,maryam.ahmed288@example.com,Karachi,2025-01-03,2025-08-18,135,3,1350,450,3,4,1,341,Loyal Customers
+SB-C0290,Ahmed Nawaz,ahmed.nawaz289@example.com,Rawalpindi,2025-02-19,2025-08-06,147,3,15720,5240,2,4,4,244,At Risk
+SB-C0291,Maryam Mirza,maryam.mirza290@example.com,Islamabad,2025-01-04,2025-01-04,361,1,11400,11400,1,2,3,123,Hibernating
+SB-C0292,Kashif Sheikh,kashif.sheikh291@example.com,Islamabad,2025-01-15,2025-07-07,177,2,9040,4520,2,3,3,233,At Risk
+SB-C0293,Shahid Ahmed,shahid.ahmed292@example.com,Islamabad,2025-05-04,2025-07-14,170,2,4570,2285,2,3,2,232,At Risk
+SB-C0294,Saad Sheikh,saad.sheikh293@example.com,Multan,2025-12-17,2025-12-17,14,1,13500,13500,5,2,3,523,Potential Loyalists
+SB-C0295,Mehwish Sheikh,mehwish.sheikh294@example.com,Rawalpindi,2025-01-01,2025-08-14,139,9,84810,9423,3,5,5,355,Loyal Customers
+SB-C0296,Sana Sheikh,sana.sheikh295@example.com,Islamabad,2025-12-21,2025-12-21,10,1,4140,4140,5,2,2,522,Potential Loyalists
+SB-C0297,Mahnoor Hussain,mahnoor.hussain296@example.com,Rawalpindi,2025-02-22,2025-11-11,50,6,61870,10312,4,5,5,455,Champions
+SB-C0298,Asif Qureshi,asif.qureshi297@example.com,Karachi,2025-01-24,2025-09-15,107,8,75740,9468,3,5,5,355,Loyal Customers
+SB-C0299,Asif Qureshi,asif.qureshi298@example.com,Rawalpindi,2025-05-18,2025-05-18,227,1,1280,1280,1,2,1,121,Hibernating
+SB-C0300,Nadia Nawaz,nadia.nawaz299@example.com,Karachi,2025-10-31,2025-10-31,61,1,5250,5250,4,2,2,422,Potential Loyalists
+SB-C0301,Sana Ahmed,sana.ahmed300@example.com,Lahore,2025-12-22,2025-12-22,9,1,22500,22500,5,2,4,524,Potential Loyalists
+SB-C0302,Kashif Butt,kashif.butt301@example.com,Multan,2025-11-29,2025-11-29,32,1,14500,14500,4,2,3,423,Potential Loyalists
+SB-C0303,Shahid Butt,shahid.butt302@example.com,Karachi,2025-02-26,2025-12-20,11,11,78500,7136,5,5,5,555,Champions
+SB-C0304,Shahid Mirza,shahid.mirza303@example.com,Faisalabad,2025-12-24,2025-12-24,7,1,7920,7920,5,2,3,523,Potential Loyalists
+SB-C0305,Sadia Abbasi,sadia.abbasi304@example.com,Faisalabad,2025-07-31,2025-11-01,60,2,1420,710,4,3,1,431,Loyal Customers
+SB-C0306,Kiran Ali,kiran.ali305@example.com,Multan,2025-12-21,2025-12-21,10,1,2940,2940,5,2,2,522,Potential Loyalists
+SB-C0307,Saad Butt,saad.butt306@example.com,Islamabad,2025-01-12,2025-08-07,146,6,126080,21013,2,5,5,255,At Risk
+SB-C0308,Usman Iqbal,usman.iqbal307@example.com,Karachi,2025-12-19,2025-12-19,12,1,7920,7920,5,2,3,523,Potential Loyalists
+SB-C0309,Zainab Malik,zainab.malik308@example.com,Islamabad,2025-02-01,2025-08-08,145,2,1860,930,2,3,1,231,At Risk
+SB-C0310,Nida Ahmed,nida.ahmed309@example.com,Lahore,2025-07-29,2025-11-08,53,3,17920,5973,4,4,4,444,Loyal Customers
+SB-C0311,Ayesha Mirza,ayesha.mirza310@example.com,Rawalpindi,2025-04-08,2025-04-08,267,1,27200,27200,1,2,4,124,Hibernating
+SB-C0312,Saad Rana,saad.rana311@example.com,Faisalabad,2025-01-10,2025-04-12,263,2,12400,6200,1,3,3,133,At Risk
+SB-C0313,Asif Shah,asif.shah312@example.com,Karachi,2025-01-08,2025-01-29,336,2,6180,3090,1,3,2,132,At Risk
+SB-C0314,Zainab Chaudhry,zainab.chaudhry313@example.com,Rawalpindi,2025-01-14,2025-01-25,340,2,10400,5200,1,3,3,133,At Risk
+SB-C0315,Ali Sheikh,ali.sheikh314@example.com,Faisalabad,2025-04-26,2025-12-09,22,2,3820,1910,4,3,2,432,Loyal Customers
+SB-C0316,Danish Ahmed,danish.ahmed315@example.com,Islamabad,2025-04-13,2025-10-25,67,7,51650,7379,4,5,5,455,Champions
+SB-C0317,Usman Qureshi,usman.qureshi316@example.com,Lahore,2025-12-21,2025-12-21,10,1,3750,3750,5,2,2,522,Potential Loyalists
+SB-C0318,Hira Mirza,hira.mirza317@example.com,Multan,2025-05-16,2025-05-16,229,1,360,360,1,2,1,121,Hibernating
+SB-C0319,Danish Siddiqui,danish.siddiqui318@example.com,Rawalpindi,2025-01-22,2025-09-01,121,7,46140,6591,3,5,5,355,Loyal Customers
+SB-C0320,Kashif Chaudhry,kashif.chaudhry319@example.com,Karachi,2025-12-31,2025-12-31,0,1,900,900,5,2,1,521,Potential Loyalists
+SB-C0321,Raza Akhtar,raza.akhtar320@example.com,Islamabad,2025-01-08,2025-06-25,189,3,22560,7520,2,4,4,244,At Risk
+SB-C0322,Hira Abbasi,hira.abbasi321@example.com,Multan,2025-01-28,2025-10-16,76,9,40930,4548,4,5,5,455,Champions
+SB-C0323,Mehwish Abbasi,mehwish.abbasi322@example.com,Lahore,2025-12-26,2025-12-26,5,1,900,900,5,2,1,521,Potential Loyalists
+SB-C0324,Amna Chaudhry,amna.chaudhry323@example.com,Lahore,2025-04-02,2025-04-02,273,1,5000,5000,1,2,2,122,Hibernating
+SB-C0325,Ahmed Nawaz,ahmed.nawaz324@example.com,Karachi,2025-12-19,2025-12-19,12,1,10500,10500,5,2,3,523,Potential Loyalists
+SB-C0326,Omar Siddiqui,omar.siddiqui325@example.com,Faisalabad,2025-01-26,2025-01-26,339,1,12800,12800,1,2,3,123,Hibernating
+SB-C0327,Rabia Abbasi,rabia.abbasi326@example.com,Islamabad,2025-01-20,2025-09-02,120,4,17580,4395,3,4,4,344,Loyal Customers
+SB-C0328,Nadia Javed,nadia.javed327@example.com,Karachi,2025-12-18,2025-12-18,13,1,840,840,5,2,1,521,Potential Loyalists
+SB-C0329,Farah Qureshi,farah.qureshi328@example.com,Faisalabad,2025-06-09,2025-06-09,205,1,1280,1280,2,2,1,221,Hibernating
+SB-C0330,Usman Awan,usman.awan329@example.com,Islamabad,2025-08-12,2025-08-12,141,1,8550,8550,3,2,3,323,Potential Loyalists
+SB-C0331,Sana Chaudhry,sana.chaudhry330@example.com,Lahore,2025-01-21,2025-07-10,174,9,64530,7170,2,5,5,255,At Risk
+SB-C0332,Mehwish Raza,mehwish.raza331@example.com,Rawalpindi,2025-04-27,2025-12-27,4,4,4780,1195,5,4,2,542,Loyal Customers
+SB-C0333,Mehwish Abbasi,mehwish.abbasi332@example.com,Islamabad,2025-01-15,2025-07-15,169,4,25280,6320,2,4,4,244,At Risk
+SB-C0334,Nida Siddiqui,nida.siddiqui333@example.com,Islamabad,2025-03-02,2025-12-12,19,4,17530,4382,4,4,4,444,Loyal Customers
+SB-C0335,Bilal Javed,bilal.javed334@example.com,Rawalpindi,2025-04-27,2025-04-27,248,1,780,780,1,2,1,121,Hibernating
+SB-C0336,Sadia Iqbal,sadia.iqbal335@example.com,Faisalabad,2025-06-18,2025-06-18,196,1,4500,4500,2,2,2,222,Hibernating
+SB-C0337,Shahid Chaudhry,shahid.chaudhry336@example.com,Faisalabad,2025-01-27,2025-08-01,152,3,4680,1560,2,4,2,242,At Risk
+SB-C0338,Zainab Siddiqui,zainab.siddiqui337@example.com,Faisalabad,2025-10-30,2025-10-30,62,1,2560,2560,4,2,1,421,Potential Loyalists
+SB-C0339,Nadia Khan,nadia.khan338@example.com,Multan,2025-01-01,2025-07-16,168,8,35190,4399,2,5,5,255,At Risk
+SB-C0340,Tariq Shah,tariq.shah339@example.com,Rawalpindi,2025-12-22,2025-12-22,9,1,2940,2940,5,2,2,522,Potential Loyalists
+SB-C0341,Sadia Chaudhry,sadia.chaudhry340@example.com,Karachi,2025-01-16,2025-04-29,246,3,22470,7490,1,4,4,144,At Risk
+SB-C0342,Asif Abbasi,asif.abbasi341@example.com,Multan,2025-06-24,2025-06-24,190,1,7920,7920,2,2,3,223,Hibernating
+SB-C0343,Hira Ali,hira.ali342@example.com,Faisalabad,2025-05-17,2025-08-11,142,2,6660,3330,2,3,2,232,At Risk
+SB-C0344,Mehwish Butt,mehwish.butt343@example.com,Rawalpindi,2025-12-14,2025-12-14,17,1,2850,2850,5,2,1,521,Potential Loyalists
+SB-C0345,Raza Sheikh,raza.sheikh344@example.com,Faisalabad,2025-01-21,2025-03-28,278,2,14480,7240,1,3,3,133,At Risk
+SB-C0346,Omar Chaudhry,omar.chaudhry345@example.com,Multan,2025-01-01,2025-08-11,142,3,14970,4990,2,4,3,243,At Risk
+SB-C0347,Zainab Qureshi,zainab.qureshi346@example.com,Rawalpindi,2025-12-18,2025-12-18,13,1,5700,5700,5,2,2,522,Potential Loyalists
+SB-C0348,Farah Shah,farah.shah347@example.com,Faisalabad,2025-06-17,2025-10-21,71,2,40600,20300,4,3,5,435,Loyal Customers
+SB-C0349,Nadia Rana,nadia.rana348@example.com,Faisalabad,2025-06-16,2025-07-30,154,2,25690,12845,2,3,4,234,At Risk
+SB-C0350,Ali Iqbal,ali.iqbal349@example.com,Lahore,2025-04-02,2025-12-19,12,10,107080,10708,5,5,5,555,Champions
+SB-C0351,Hassan Qureshi,hassan.qureshi350@example.com,Lahore,2025-01-22,2025-09-14,108,2,3950,1975,3,3,2,332,Loyal Customers
+SB-C0352,Farah Mirza,farah.mirza351@example.com,Rawalpindi,2025-01-04,2025-03-29,277,3,4260,1420,1,4,2,142,At Risk
+SB-C0353,Waqas Awan,waqas.awan352@example.com,Multan,2025-01-28,2025-10-27,65,9,98140,10904,4,5,5,455,Champions
+SB-C0354,Shahid Javed,shahid.javed353@example.com,Faisalabad,2025-04-21,2025-07-17,167,2,3780,1890,2,3,2,232,At Risk
+SB-C0355,Maryam Ahmed,maryam.ahmed354@example.com,Faisalabad,2025-05-26,2025-09-14,108,3,14540,4847,3,4,3,343,Loyal Customers
+SB-C0356,Mahnoor Rana,mahnoor.rana355@example.com,Rawalpindi,2025-02-13,2025-11-20,41,4,20910,5228,4,4,4,444,Loyal Customers
+SB-C0357,Mehwish Nawaz,mehwish.nawaz356@example.com,Faisalabad,2025-12-25,2025-12-25,6,1,320,320,5,2,1,521,Potential Loyalists
+SB-C0358,Tariq Hussain,tariq.hussain357@example.com,Rawalpindi,2025-04-03,2025-08-14,139,2,3240,1620,3,3,2,332,Loyal Customers
+SB-C0359,Hassan Khan,hassan.khan358@example.com,Faisalabad,2025-12-25,2025-12-25,6,1,3360,3360,5,2,2,522,Potential Loyalists
+SB-C0360,Asif Javed,asif.javed359@example.com,Lahore,2025-08-29,2025-11-19,42,3,21240,7080,4,4,4,444,Loyal Customers
+SB-C0361,Nida Sheikh,nida.sheikh360@example.com,Lahore,2025-01-06,2025-01-20,345,3,18600,6200,1,4,4,144,At Risk
+SB-C0362,Rabia Siddiqui,rabia.siddiqui361@example.com,Lahore,2025-09-13,2025-12-21,10,2,23650,11825,5,3,4,534,Loyal Customers
+SB-C0363,Farah Rana,farah.rana362@example.com,Rawalpindi,2025-12-23,2025-12-23,8,1,600,600,5,2,1,521,Potential Loyalists
+SB-C0364,Sana Raza,sana.raza363@example.com,Lahore,2025-04-09,2025-04-09,266,1,6250,6250,1,2,2,122,Hibernating
+SB-C0365,Raza Mirza,raza.mirza364@example.com,Multan,2025-02-04,2025-02-04,330,1,9600,9600,1,2,3,123,Hibernating
+SB-C0366,Imran Awan,imran.awan365@example.com,Multan,2025-03-06,2025-11-12,49,8,86160,10770,4,5,5,455,Champions
+SB-C0367,Imran Rana,imran.rana366@example.com,Karachi,2025-12-16,2025-12-16,15,1,2670,2670,5,2,1,521,Potential Loyalists
+SB-C0368,Danish Mirza,danish.mirza367@example.com,Lahore,2025-04-16,2025-08-12,141,3,9220,3073,3,4,3,343,Loyal Customers
+SB-C0369,Shahid Akhtar,shahid.akhtar368@example.com,Faisalabad,2025-01-20,2025-03-28,278,3,22440,7480,1,4,4,144,At Risk
+SB-C0370,Fatima Ali,fatima.ali369@example.com,Karachi,2025-05-07,2025-05-07,238,1,3750,3750,1,2,2,122,Hibernating
+SB-C0371,Hassan Butt,hassan.butt370@example.com,Rawalpindi,2025-12-29,2025-12-29,2,1,62500,62500,5,2,5,525,Potential Loyalists
+SB-C0372,Mehwish Ali,mehwish.ali371@example.com,Rawalpindi,2025-01-17,2025-07-19,165,3,22050,7350,2,4,4,244,At Risk
+SB-C0373,Sana Mirza,sana.mirza372@example.com,Faisalabad,2025-01-06,2025-01-06,359,1,1350,1350,1,2,1,121,Hibernating
+SB-C0374,Kashif Raza,kashif.raza373@example.com,Karachi,2025-01-26,2025-01-29,336,2,5740,2870,1,3,2,132,At Risk
+SB-C0375,Nadia Khan,nadia.khan374@example.com,Karachi,2025-06-16,2025-11-18,43,3,7720,2573,4,4,3,443,Loyal Customers
+SB-C0376,Ahmed Mirza,ahmed.mirza375@example.com,Rawalpindi,2025-12-16,2025-12-16,15,1,13500,13500,5,2,3,523,Potential Loyalists
+SB-C0377,Waqas Sheikh,waqas.sheikh376@example.com,Rawalpindi,2025-01-09,2025-08-30,123,6,9750,1625,3,5,3,353,Loyal Customers
+SB-C0378,Waqas Sheikh,waqas.sheikh377@example.com,Lahore,2025-11-27,2025-11-27,34,1,12000,12000,4,2,3,423,Potential Loyalists
+SB-C0379,Maryam Malik,maryam.malik378@example.com,Islamabad,2025-01-09,2025-02-20,314,2,2780,1390,1,3,1,131,At Risk
+SB-C0380,Raza Shah,raza.shah379@example.com,Islamabad,2025-01-10,2025-07-05,179,3,7120,2373,2,4,2,242,At Risk
+SB-C0381,Omar Abbasi,omar.abbasi380@example.com,Faisalabad,2025-09-06,2025-09-06,116,1,17250,17250,3,2,4,324,Potential Loyalists
+SB-C0382,Nida Butt,nida.butt381@example.com,Islamabad,2025-03-10,2025-12-28,3,18,106160,5898,5,5,5,555,Champions
+SB-C0383,Farah Butt,farah.butt382@example.com,Karachi,2025-04-15,2025-04-30,245,2,8200,4100,1,3,3,133,At Risk
+SB-C0384,Sadia Abbasi,sadia.abbasi383@example.com,Faisalabad,2025-01-03,2025-08-24,129,8,47770,5971,3,5,5,355,Loyal Customers
+SB-C0385,Sadia Qureshi,sadia.qureshi384@example.com,Lahore,2025-03-01,2025-11-02,59,2,4070,2035,4,3,2,432,Loyal Customers
+SB-C0386,Mahnoor Malik,mahnoor.malik385@example.com,Karachi,2025-03-12,2025-11-22,39,6,49380,8230,4,5,5,455,Champions
+SB-C0387,Waqas Mirza,waqas.mirza386@example.com,Islamabad,2025-01-03,2025-05-22,223,3,15360,5120,2,4,3,243,At Risk
+SB-C0388,Ali Rana,ali.rana387@example.com,Lahore,2025-04-26,2025-08-15,138,4,11730,2932,3,4,3,343,Loyal Customers
+SB-C0389,Shahid Malik,shahid.malik388@example.com,Islamabad,2025-02-23,2025-10-27,65,4,12980,3245,4,4,3,443,Loyal Customers
+SB-C0390,Imran Malik,imran.malik389@example.com,Faisalabad,2025-05-21,2025-06-30,184,2,1640,820,2,3,1,231,At Risk
+SB-C0391,Raza Javed,raza.javed390@example.com,Multan,2025-07-20,2025-07-20,164,1,1280,1280,2,2,1,221,Hibernating
+SB-C0392,Nida Akhtar,nida.akhtar391@example.com,Rawalpindi,2025-01-07,2025-06-18,196,3,27980,9327,2,4,4,244,At Risk
+SB-C0393,Usman Raza,usman.raza392@example.com,Islamabad,2025-01-15,2025-10-03,89,4,4530,1132,3,4,2,342,Loyal Customers
+SB-C0394,Tariq Akhtar,tariq.akhtar393@example.com,Karachi,2025-02-07,2025-09-08,114,2,12700,6350,3,3,3,333,Loyal Customers
+SB-C0395,Bilal Hussain,bilal.hussain394@example.com,Rawalpindi,2025-04-28,2025-12-20,11,16,117770,7361,5,5,5,555,Champions
+SB-C0396,Maryam Shah,maryam.shah395@example.com,Islamabad,2025-03-10,2025-03-10,296,1,1250,1250,1,2,1,121,Hibernating
+SB-C0397,Kashif Siddiqui,kashif.siddiqui396@example.com,Lahore,2025-01-03,2025-08-26,127,8,79940,9992,3,5,5,355,Loyal Customers
+SB-C0398,Maryam Siddiqui,maryam.siddiqui397@example.com,Islamabad,2025-06-27,2025-06-27,187,1,8750,8750,2,2,3,223,Hibernating
+SB-C0399,Imran Raza,imran.raza398@example.com,Karachi,2025-12-26,2025-12-26,5,1,4450,4450,5,2,2,522,Potential Loyalists
+SB-C0400,Waqas Awan,waqas.awan399@example.com,Lahore,2025-02-11,2025-11-24,37,7,58700,8386,4,5,5,455,Champions
+SB-C0401,Fatima Awan,fatima.awan400@example.com,Lahore,2025-01-14,2025-04-21,254,2,9080,4540,1,3,3,133,At Risk
+SB-C0402,Omar Qureshi,omar.qureshi401@example.com,Faisalabad,2025-12-31,2025-12-31,0,1,520,520,5,2,1,521,Potential Loyalists
+SB-C0403,Waqas Qureshi,waqas.qureshi402@example.com,Lahore,2025-03-09,2025-03-09,297,1,7250,7250,1,2,2,122,Hibernating
+SB-C0404,Tariq Sheikh,tariq.sheikh403@example.com,Islamabad,2025-01-02,2025-04-15,260,2,4920,2460,1,3,2,132,At Risk
+SB-C0405,Ali Ali,ali.ali404@example.com,Multan,2025-05-11,2025-05-11,234,1,9600,9600,1,2,3,123,Hibernating
+SB-C0406,Hira Akhtar,hira.akhtar405@example.com,Karachi,2025-02-15,2025-02-15,319,1,7920,7920,1,2,3,123,Hibernating
+SB-C0407,Mahnoor Chaudhry,mahnoor.chaudhry406@example.com,Rawalpindi,2025-03-31,2025-03-31,275,1,7920,7920,1,2,3,123,Hibernating
+SB-C0408,Mahnoor Abbasi,mahnoor.abbasi407@example.com,Faisalabad,2025-06-02,2025-06-02,212,1,2160,2160,2,2,1,221,Hibernating
+SB-C0409,Asif Javed,asif.javed408@example.com,Lahore,2025-01-20,2025-07-18,166,3,5480,1827,2,4,2,242,At Risk
+SB-C0410,Omar Rana,omar.rana409@example.com,Faisalabad,2025-02-24,2025-12-11,20,13,98680,7591,4,5,5,455,Champions
+SB-C0411,Mahnoor Khan,mahnoor.khan410@example.com,Lahore,2025-01-19,2025-06-26,188,3,13200,4400,2,4,3,243,At Risk
+SB-C0412,Mahnoor Chaudhry,mahnoor.chaudhry411@example.com,Islamabad,2025-10-31,2025-10-31,61,1,7250,7250,4,2,2,422,Potential Loyalists
+SB-C0413,Maryam Hussain,maryam.hussain412@example.com,Islamabad,2025-11-03,2025-11-03,58,1,2250,2250,4,2,1,421,Potential Loyalists
+SB-C0414,Mahnoor Rana,mahnoor.rana413@example.com,Multan,2025-02-03,2025-08-14,139,4,16110,4028,3,4,4,344,Loyal Customers
+SB-C0415,Sadia Sheikh,sadia.sheikh414@example.com,Karachi,2025-02-16,2025-09-09,113,4,22220,5555,3,4,4,344,Loyal Customers
+SB-C0416,Mehwish Hussain,mehwish.hussain415@example.com,Faisalabad,2025-01-30,2025-01-30,335,1,900,900,1,2,1,121,Hibernating
+SB-C0417,Bilal Khan,bilal.khan416@example.com,Karachi,2025-05-31,2025-11-27,34,4,46680,11670,4,4,5,445,Loyal Customers
+SB-C0418,Sadia Ali,sadia.ali417@example.com,Lahore,2025-01-26,2025-07-10,174,2,3350,1675,2,3,2,232,At Risk
+SB-C0419,Sadia Hussain,sadia.hussain418@example.com,Karachi,2025-12-26,2025-12-26,5,1,10350,10350,5,2,3,523,Potential Loyalists
+SB-C0420,Kashif Sheikh,kashif.sheikh419@example.com,Rawalpindi,2025-04-15,2025-11-18,43,3,9220,3073,4,4,3,443,Loyal Customers
+SB-C0421,Nadia Siddiqui,nadia.siddiqui420@example.com,Lahore,2025-01-06,2025-07-15,169,3,65120,21707,2,4,5,245,At Risk
+SB-C0422,Hira Awan,hira.awan421@example.com,Multan,2025-01-03,2025-01-03,362,1,8400,8400,1,2,3,123,Hibernating
+SB-C0423,Maryam Raza,maryam.raza422@example.com,Islamabad,2025-09-02,2025-09-02,120,1,720,720,3,2,1,321,Potential Loyalists
+SB-C0424,Mehwish Chaudhry,mehwish.chaudhry423@example.com,Multan,2025-01-03,2025-01-03,362,1,3750,3750,1,2,2,122,Hibernating
+SB-C0425,Danish Awan,danish.awan424@example.com,Karachi,2025-01-08,2025-02-19,315,3,13290,4430,1,4,3,143,At Risk
+SB-C0426,Shahid Javed,shahid.javed425@example.com,Karachi,2025-01-27,2025-08-11,142,4,12130,3032,2,5,3,253,At Risk
+SB-C0427,Mahnoor Abbasi,mahnoor.abbasi426@example.com,Islamabad,2025-05-23,2025-12-30,1,3,28600,9533,5,4,4,544,Loyal Customers
+SB-C0428,Ali Qureshi,ali.qureshi427@example.com,Rawalpindi,2025-06-08,2025-06-08,206,1,3400,3400,2,2,2,222,Hibernating
+SB-C0429,Usman Nawaz,usman.nawaz428@example.com,Faisalabad,2025-08-15,2025-08-15,138,1,2940,2940,3,2,2,322,Potential Loyalists
+SB-C0430,Rabia Javed,rabia.javed429@example.com,Islamabad,2025-03-04,2025-03-04,302,1,18000,18000,1,2,4,124,Hibernating
+SB-C0431,Hassan Raza,hassan.raza430@example.com,Multan,2025-07-28,2025-12-10,21,2,5900,2950,4,3,2,432,Loyal Customers
+SB-C0432,Nadia Javed,nadia.javed431@example.com,Faisalabad,2025-08-07,2025-09-01,121,2,8100,4050,3,3,3,333,Loyal Customers
+SB-C0433,Zainab Mirza,zainab.mirza432@example.com,Multan,2025-01-20,2025-05-12,233,2,19400,9700,1,3,4,134,At Risk
+SB-C0434,Ayesha Ahmed,ayesha.ahmed433@example.com,Islamabad,2025-10-15,2025-10-15,77,1,2500,2500,4,2,1,421,Potential Loyalists
+SB-C0435,Sadia Sheikh,sadia.sheikh434@example.com,Rawalpindi,2025-03-30,2025-03-30,276,1,25000,25000,1,2,4,124,Hibernating
+SB-C0436,Imran Ali,imran.ali435@example.com,Karachi,2025-01-07,2025-01-07,358,1,7200,7200,1,2,2,122,Hibernating
+SB-C0437,Bilal Raza,bilal.raza436@example.com,Karachi,2025-04-26,2025-12-29,2,17,182300,10724,5,5,5,555,Champions
+SB-C0438,Waqas Malik,waqas.malik437@example.com,Multan,2025-07-23,2025-10-31,61,3,15020,5007,4,4,3,443,Loyal Customers
+SB-C0439,Tariq Javed,tariq.javed438@example.com,Lahore,2025-11-03,2025-11-03,58,1,620,620,4,2,1,421,Potential Loyalists
+SB-C0440,Tariq Chaudhry,tariq.chaudhry439@example.com,Multan,2025-01-01,2025-09-20,102,4,15300,3825,3,5,3,353,Loyal Customers
+SB-C0441,Ahmed Qureshi,ahmed.qureshi440@example.com,Multan,2025-01-24,2025-01-24,341,1,2880,2880,1,2,2,122,Hibernating
+SB-C0442,Kashif Sheikh,kashif.sheikh441@example.com,Islamabad,2025-01-08,2025-09-05,117,9,45920,5102,3,5,5,355,Loyal Customers
+SB-C0443,Ahmed Iqbal,ahmed.iqbal442@example.com,Karachi,2025-02-28,2025-12-19,12,13,101210,7785,5,5,5,555,Champions
+SB-C0444,Farah Abbasi,farah.abbasi443@example.com,Rawalpindi,2025-12-31,2025-12-31,0,1,14400,14400,5,2,3,523,Potential Loyalists
+SB-C0445,Amna Raza,amna.raza444@example.com,Lahore,2025-09-06,2025-09-06,116,1,19000,19000,3,2,4,324,Potential Loyalists
+SB-C0446,Kashif Akhtar,kashif.akhtar445@example.com,Multan,2025-04-24,2025-09-03,119,3,12710,4237,3,4,3,343,Loyal Customers
+SB-C0447,Saad Malik,saad.malik446@example.com,Multan,2025-10-22,2025-10-22,70,1,7600,7600,4,2,3,423,Potential Loyalists
+SB-C0448,Waqas Raza,waqas.raza447@example.com,Multan,2025-12-16,2025-12-16,15,1,6400,6400,5,2,2,522,Potential Loyalists
+SB-C0449,Hassan Raza,hassan.raza448@example.com,Lahore,2025-05-19,2025-05-19,226,1,27200,27200,2,2,4,224,Hibernating
+SB-C0450,Mehwish Hussain,mehwish.hussain449@example.com,Multan,2025-01-17,2025-08-14,139,4,33130,8282,3,5,4,354,Loyal Customers
+SB-C0451,Mahnoor Raza,mahnoor.raza450@example.com,Multan,2025-04-19,2025-06-23,191,2,2850,1425,2,3,1,231,At Risk
+SB-C0452,Waqas Malik,waqas.malik451@example.com,Karachi,2025-03-30,2025-12-28,3,10,76000,7600,5,5,5,555,Champions
+SB-C0453,Ali Abbasi,ali.abbasi452@example.com,Faisalabad,2025-01-17,2025-07-08,176,3,4020,1340,2,4,2,242,At Risk
+SB-C0454,Fatima Hussain,fatima.hussain453@example.com,Islamabad,2025-04-17,2025-04-17,258,1,1800,1800,1,2,1,121,Hibernating
+SB-C0455,Tariq Mirza,tariq.mirza454@example.com,Lahore,2025-12-27,2025-12-27,4,1,4900,4900,5,2,2,522,Potential Loyalists
+SB-C0456,Ayesha Ali,ayesha.ali455@example.com,Karachi,2025-01-21,2025-02-26,308,2,2540,1270,1,3,1,131,At Risk
+SB-C0457,Farah Hussain,farah.hussain456@example.com,Faisalabad,2025-01-09,2025-09-15,107,3,21000,7000,3,4,4,344,Loyal Customers
+SB-C0458,Nadia Nawaz,nadia.nawaz457@example.com,Multan,2025-08-01,2025-10-27,65,8,61880,7735,4,5,5,455,Champions
+SB-C0459,Danish Hussain,danish.hussain458@example.com,Rawalpindi,2025-05-30,2025-10-16,76,4,14950,3738,4,5,3,453,Champions
+SB-C0460,Usman Nawaz,usman.nawaz459@example.com,Rawalpindi,2025-01-15,2025-07-18,166,3,8430,2810,2,4,3,243,At Risk
+SB-C0461,Sadia Mirza,sadia.mirza460@example.com,Islamabad,2025-01-29,2025-04-11,264,3,7580,2527,1,4,3,143,At Risk
+SB-C0462,Sana Ahmed,sana.ahmed461@example.com,Multan,2025-01-12,2025-07-09,175,3,33690,11230,2,4,4,244,At Risk
+SB-C0463,Sana Siddiqui,sana.siddiqui462@example.com,Faisalabad,2025-03-14,2025-03-14,292,1,2300,2300,1,2,1,121,Hibernating
+SB-C0464,Sana Javed,sana.javed463@example.com,Lahore,2025-10-03,2025-12-28,3,2,92250,46125,5,3,5,535,Loyal Customers
+SB-C0465,Fatima Chaudhry,fatima.chaudhry464@example.com,Rawalpindi,2025-01-03,2025-07-18,166,4,10600,2650,2,5,3,253,At Risk
+SB-C0466,Sana Qureshi,sana.qureshi465@example.com,Rawalpindi,2025-01-13,2025-01-27,338,3,17440,5813,1,4,4,144,At Risk
+SB-C0467,Ali Awan,ali.awan466@example.com,Rawalpindi,2025-01-08,2025-07-28,156,7,47310,6759,2,5,5,255,At Risk
+SB-C0468,Sadia Raza,sadia.raza467@example.com,Karachi,2025-05-13,2025-05-13,232,1,4500,4500,1,2,2,122,Hibernating
+SB-C0469,Bilal Iqbal,bilal.iqbal468@example.com,Rawalpindi,2025-01-19,2025-04-11,264,2,3520,1760,1,3,2,132,At Risk
+SB-C0470,Raza Abbasi,raza.abbasi469@example.com,Islamabad,2025-03-11,2025-03-11,295,1,1960,1960,1,2,1,121,Hibernating
+SB-C0471,Ayesha Butt,ayesha.butt470@example.com,Rawalpindi,2025-12-09,2025-12-09,22,1,7200,7200,4,2,2,422,Potential Loyalists
+SB-C0472,Amna Iqbal,amna.iqbal471@example.com,Multan,2025-12-28,2025-12-28,3,1,7800,7800,5,2,3,523,Potential Loyalists
+SB-C0473,Nida Hussain,nida.hussain472@example.com,Faisalabad,2025-05-05,2025-07-08,176,3,13220,4407,2,4,3,243,At Risk
+SB-C0474,Zainab Khan,zainab.khan473@example.com,Islamabad,2025-03-17,2025-12-21,10,2,5160,2580,5,3,2,532,Loyal Customers
+SB-C0475,Amna Akhtar,amna.akhtar474@example.com,Lahore,2025-04-24,2025-04-24,251,1,27200,27200,1,2,4,124,Hibernating
+SB-C0476,Kiran Abbasi,kiran.abbasi475@example.com,Rawalpindi,2025-01-11,2025-09-18,104,3,3410,1137,3,4,2,342,Loyal Customers
+SB-C0477,Rabia Javed,rabia.javed476@example.com,Lahore,2025-07-23,2025-12-06,25,2,3870,1935,4,3,2,432,Loyal Customers
+SB-C0478,Imran Rana,imran.rana477@example.com,Lahore,2025-04-20,2025-04-20,255,1,15200,15200,1,2,3,123,Hibernating
+SB-C0479,Rabia Akhtar,rabia.akhtar478@example.com,Faisalabad,2025-05-22,2025-11-18,43,4,22060,5515,4,5,4,454,Champions
+SB-C0480,Raza Chaudhry,raza.chaudhry479@example.com,Rawalpindi,2025-12-25,2025-12-25,6,1,19200,19200,5,2,4,524,Potential Loyalists
+SB-C0481,Usman Awan,usman.awan480@example.com,Islamabad,2025-04-10,2025-07-11,173,2,5160,2580,2,3,2,232,At Risk
+SB-C0482,Sadia Chaudhry,sadia.chaudhry481@example.com,Faisalabad,2025-01-03,2025-09-05,117,9,45720,5080,3,5,5,355,Loyal Customers
+SB-C0483,Omar Chaudhry,omar.chaudhry482@example.com,Islamabad,2025-12-21,2025-12-21,10,1,1960,1960,5,2,1,521,Potential Loyalists
+SB-C0484,Raza Hussain,raza.hussain483@example.com,Lahore,2025-10-05,2025-11-19,42,2,5560,2780,4,3,2,432,Loyal Customers
+SB-C0485,Zainab Rana,zainab.rana484@example.com,Karachi,2025-01-14,2025-09-05,117,6,47680,7947,3,5,5,355,Loyal Customers
+SB-C0486,Fatima Chaudhry,fatima.chaudhry485@example.com,Rawalpindi,2025-01-14,2025-08-23,130,6,45560,7593,3,5,5,355,Loyal Customers
+SB-C0487,Danish Malik,danish.malik486@example.com,Rawalpindi,2025-12-30,2025-12-30,1,1,3200,3200,5,2,2,522,Potential Loyalists
+SB-C0488,Kiran Javed,kiran.javed487@example.com,Karachi,2025-05-21,2025-05-21,224,1,2250,2250,2,2,1,221,Hibernating
+SB-C0489,Omar Nawaz,omar.nawaz488@example.com,Islamabad,2025-11-27,2025-11-27,34,1,520,520,4,2,1,421,Potential Loyalists
+SB-C0490,Farah Shah,farah.shah489@example.com,Islamabad,2025-04-09,2025-12-26,5,4,11460,2865,5,5,3,553,Champions
+SB-C0491,Ali Akhtar,ali.akhtar490@example.com,Karachi,2025-01-24,2025-04-29,246,3,15520,5173,1,4,4,144,At Risk
+SB-C0492,Nida Sheikh,nida.sheikh491@example.com,Karachi,2025-01-02,2025-07-13,171,7,72580,10369,2,5,5,255,At Risk
+SB-C0493,Mahnoor Iqbal,mahnoor.iqbal492@example.com,Multan,2025-01-10,2025-06-07,207,3,9090,3030,2,4,3,243,At Risk
+SB-C0494,Rabia Raza,rabia.raza493@example.com,Lahore,2025-01-10,2025-09-21,101,4,7900,1975,3,5,3,353,Loyal Customers
+SB-C0495,Rabia Qureshi,rabia.qureshi494@example.com,Karachi,2025-01-12,2025-08-30,123,7,73740,10534,3,5,5,355,Loyal Customers
+SB-C0496,Raza Raza,raza.raza495@example.com,Faisalabad,2025-05-10,2025-12-29,2,4,33830,8458,5,5,5,555,Champions
+SB-C0497,Rabia Akhtar,rabia.akhtar496@example.com,Lahore,2025-02-15,2025-11-24,37,6,41380,6897,4,5,5,455,Champions
+SB-C0498,Omar Siddiqui,omar.siddiqui497@example.com,Islamabad,2025-03-18,2025-08-18,135,4,26000,6500,3,5,4,354,Loyal Customers
+SB-C0499,Fatima Awan,fatima.awan498@example.com,Multan,2025-01-17,2025-04-23,252,3,52800,17600,1,4,5,145,At Risk
+SB-C0500,Kashif Shah,kashif.shah499@example.com,Karachi,2025-01-30,2025-05-25,220,3,14320,4773,2,4,3,243,At Risk

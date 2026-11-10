@@ -1,0 +1,130 @@
+{
+  "shop": "SastaBazaar (SAMPLE)",
+  "snapshot_date": "2025-12-31",
+  "period": "2025-01-01 to 2025-12-31",
+  "orders": 1598,
+  "customers": 500,
+  "total_revenue_pkr": 11633750,
+  "avg_order_value_pkr": 7280,
+  "median_monetary_pkr": 11455,
+  "median_recency_days": 117,
+  "median_frequency": 2,
+  "one_time_buyers": 200,
+  "one_time_share_pct": 40.0,
+  "repeat_buyers": 300,
+  "champions": {
+    "segment": "Champions",
+    "customers": 46,
+    "share_of_customers_pct": 9.2,
+    "orders": 447,
+    "revenue_pkr": 3930420,
+    "share_of_revenue_pct": 33.8,
+    "avg_monetary_pkr": 85444,
+    "avg_recency_days": 32,
+    "avg_frequency": 9.72
+  },
+  "money_at_stake_pkr": 3120990,
+  "money_at_stake_customers": 200,
+  "segments": [
+    {
+      "segment": "Champions",
+      "customers": 46,
+      "share_of_customers_pct": 9.2,
+      "orders": 447,
+      "revenue_pkr": 3930420,
+      "share_of_revenue_pct": 33.8,
+      "avg_monetary_pkr": 85444,
+      "avg_recency_days": 32,
+      "avg_frequency": 9.72
+    },
+    {
+      "segment": "Loyal Customers",
+      "customers": 134,
+      "share_of_customers_pct": 26.8,
+      "orders": 542,
+      "revenue_pkr": 3752230,
+      "share_of_revenue_pct": 32.3,
+      "avg_monetary_pkr": 28002,
+      "avg_recency_days": 84,
+      "avg_frequency": 4.04
+    },
+    {
+      "segment": "Potential Loyalists",
+      "customers": 89,
+      "share_of_customers_pct": 17.8,
+      "orders": 89,
+      "revenue_pkr": 651600,
+      "share_of_revenue_pct": 5.6,
+      "avg_monetary_pkr": 7321,
+      "avg_recency_days": 50,
+      "avg_frequency": 1
+    },
+    {
+      "segment": "New Customers",
+      "customers": 31,
+      "share_of_customers_pct": 6.2,
+      "orders": 31,
+      "revenue_pkr": 178510,
+      "share_of_revenue_pct": 1.5,
+      "avg_monetary_pkr": 5758,
+      "avg_recency_days": 7,
+      "avg_frequency": 1
+    },
+    {
+      "segment": "At Risk",
+      "customers": 120,
+      "share_of_customers_pct": 24.0,
+      "orders": 409,
+      "revenue_pkr": 2592980,
+      "share_of_revenue_pct": 22.3,
+      "avg_monetary_pkr": 21608,
+      "avg_recency_days": 214,
+      "avg_frequency": 3.41
+    },
+    {
+      "segment": "Hibernating",
+      "customers": 44,
+      "share_of_customers_pct": 8.8,
+      "orders": 44,
+      "revenue_pkr": 304830,
+      "share_of_revenue_pct": 2.6,
+      "avg_monetary_pkr": 6928,
+      "avg_recency_days": 270,
+      "avg_frequency": 1
+    },
+    {
+      "segment": "Lost",
+      "customers": 36,
+      "share_of_customers_pct": 7.2,
+      "orders": 36,
+      "revenue_pkr": 223180,
+      "share_of_revenue_pct": 1.9,
+      "avg_monetary_pkr": 6199,
+      "avg_recency_days": 263,
+      "avg_frequency": 1
+    }
+  ],
+  "score_counts": {
+    "r": {
+      "1": 100,
+      "2": 100,
+      "3": 100,
+      "4": 100,
+      "5": 100
+    },
+    "f": {
+      "1": 100,
+      "2": 100,
+      "3": 100,
+      "4": 100,
+      "5": 100
+    },
+    "m": {
+      "1": 100,
+      "2": 100,
+      "3": 100,
+      "4": 100,
+      "5": 100
+    }
+  }
+}
